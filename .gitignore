@@ -1,0 +1,4 @@
+# Part files live in GitHub Releases, not in git history
+parts/
+*.iso
+work.log
