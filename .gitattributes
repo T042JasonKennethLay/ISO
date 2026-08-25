@@ -1,0 +1,8 @@
+* text=auto
+
+# Shell scripts and checksum files must stay LF or they break under bash/sha256sum
+*.sh        text eol=lf
+*.sha256    text eol=lf
+
+# PowerShell is happiest with CRLF on Windows
+*.ps1       text eol=crlf
